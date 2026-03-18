@@ -111,7 +111,9 @@
             >;
         };
 
-        /* ── 레이어 1: FN (기능키 / 방향키 / 숫자) ─────────────────*/
+        /* ── 레이어 1: FN (기능키 / 방향키 / 숫자) ─────────────────
+           썸: BT_CLR / BT0 / BT1  |  BT2 / BT3
+           트랙볼 버튼: 우클릭 / 좌클릭  |  RCtrl                */
         lower_layer {
             label = "FN";
             bindings = <
@@ -119,8 +121,8 @@
 &kp TAB    &trans    &kp UP    &trans    &trans    &trans        &kp INS  &kp HOME  &kp PG_UP &kp LBKT  &kp RBKT   &kp BSLH
 &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT &trans    &trans        &kp DEL  &kp END   &kp PG_DN &trans    &trans     &trans
 &kp LSHFT  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5        &kp N6   &kp N7    &kp N8    &kp N9    &kp N0     &kp RSHFT
-                               &kp LCTRL &kp LGUI  &kp LALT      &kp RALT &kp RGUI
-                                         &mkp RCLK &mkp LCLK     &kp RCTRL
+                               &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2 &bt BT_SEL 3
+                                          &mkp RCLK    &mkp LCLK        &kp RCTRL
             >;
         };
 
