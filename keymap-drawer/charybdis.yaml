@@ -49,12 +49,12 @@ layers:
   - .
   - {t: /, h: SCROLL}
   - RSHFT
-  - RET
-  - LCTRL
   - LALT
+  - L CLK
+  - RET
   - LANG1
   - SPACE
-  - L CLK
+  - LCTRL
   - R CLK
   - FN
   FN:
@@ -106,12 +106,12 @@ layers:
   - '9'
   - '0'
   - RSHFT
-  - BT CLR
-  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
+  - L CLK
+  - BT CLR
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - L CLK
+  - {t: BT, h: '0'}
   - R CLK
   - {t: RCTRL, type: held}
   BT:
