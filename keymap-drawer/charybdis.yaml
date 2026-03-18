@@ -50,12 +50,12 @@ layers:
   - {t: /, h: SCROLL}
   - RSHFT
   - LALT
-  - L CLK
+  - LCTRL
   - RET
   - LANG1
   - SPACE
-  - LCTRL
   - R CLK
+  - L CLK
   - FN
   FN:
   - ESC
@@ -107,12 +107,12 @@ layers:
   - '0'
   - RSHFT
   - {t: BT, h: '1'}
-  - L CLK
+  - {t: BT, h: '0'}
   - BT CLR
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '0'}
   - R CLK
+  - L CLK
   - {t: RCTRL, type: held}
   BT:
   - EP TOG
