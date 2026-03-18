@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   QWERTY:
-  - ESC
+  - '`'
   - '1'
   - '2'
   - '3'
@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DEL
+  - BSPC
   - TAB
   - Q
   - W
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - LCTRL
+  - DEL
+  - CAPS
   - A
   - S
   - D
@@ -49,14 +49,14 @@ layers:
   - .
   - {t: /, h: SCROLL}
   - RSHFT
-  - LOWER
-  - SPACE
-  - LGUI
   - RET
-  - BSPC
+  - LCTRL
+  - LALT
+  - LANG1
+  - SPACE
   - R CLK
   - L CLK
-  - BT
+  - LOWER
   LOWER:
   - '`'
   - F1
@@ -106,14 +106,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SCROLL
+  - {t: SCROLL, type: held}
   BT:
   - EP TOG
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   SCROLL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
