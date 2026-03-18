@@ -56,9 +56,9 @@ layers:
   - SPACE
   - R CLK
   - L CLK
-  - LOWER
-  LOWER:
-  - '`'
+  - FN
+  FN:
+  - ESC
   - F1
   - F2
   - F3
@@ -68,52 +68,52 @@ layers:
   - F7
   - F8
   - F9
-  - F10
-  - F11
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - DEV TOOLS
-  - {t: ▽, type: trans}
   - '-'
   - '='
+  - TAB
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - HOME
+  - PG UP
   - '['
   - ']'
   - \
-  - HOME
+  - CAPS
   - LEFT
   - DOWN
-  - UP
   - RIGHT
-  - END
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - PG DN
-  - PG UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
+  - END
+  - PG DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SCROLL, type: held}
+  - {t: ▽, type: trans}
+  - LSHFT
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - RSHFT
+  - LCTRL
+  - LGUI
+  - LALT
+  - RALT
+  - RGUI
+  - R CLK
+  - L CLK
+  - {t: RCTRL, type: held}
   BT:
   - EP TOG
   - {t: ▽, type: trans}
