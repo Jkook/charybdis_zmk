@@ -49,14 +49,14 @@ layers:
   - .
   - {t: /, h: SCROLL}
   - RSHFT
-  - LGUI
-  - LCTRL
   - RET
+  - LCTRL
+  - LGUI
   - L CLK
   - SPACE
-  - R CLK
-  - FN
   - LALT
+  - FN
+  - R CLK
   FN:
   - ESC
   - F1
