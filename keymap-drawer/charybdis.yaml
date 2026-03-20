@@ -52,11 +52,11 @@ layers:
   - LGUI
   - LALT
   - RET
-  - A
+  - L CLK
   - SPACE
   - FN
   - LCTRL
-  - R CLK
+  - L CLK
   FN:
   - ESC
   - F1
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: R CLK, type: held}
   - L CLK
-  - RCTRL
+  - R CLK
   BT:
   - EP TOG
   - {t: ▽, type: trans}
