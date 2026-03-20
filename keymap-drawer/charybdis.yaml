@@ -52,7 +52,7 @@ layers:
   - LGUI
   - LALT
   - RET
-  - L CLK
+  - A
   - SPACE
   - FN
   - LCTRL
