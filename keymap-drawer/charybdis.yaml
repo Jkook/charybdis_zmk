@@ -49,14 +49,14 @@ layers:
   - .
   - {t: /, h: SCROLL}
   - RSHFT
-  - LALT
+  - LGUI
   - LCTRL
   - RET
-  - LANG1
+  - L CLK
   - SPACE
   - R CLK
-  - L CLK
   - FN
+  - LALT
   FN:
   - ESC
   - F1
@@ -112,8 +112,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - R CLK
-  - L CLK
-  - {t: RCTRL, type: held}
+  - {t: L CLK, type: held}
+  - RCTRL
   BT:
   - EP TOG
   - {t: ▽, type: trans}
