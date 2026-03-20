@@ -121,7 +121,7 @@
 &kp TAB    &trans    &kp UP    &trans    &trans    &trans        &kp INS  &kp HOME  &kp PG_UP &kp LBKT  &kp RBKT   &kp BSLH
 &kp CAPS   &kp LEFT  &kp DOWN  &kp RIGHT &trans    &trans        &kp DEL  &kp END   &kp PG_DN &trans    &trans     &trans
 &kp LSHFT  &trans    &trans    &trans    &trans    &trans        &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp RSHFT
-                               &trans  &trans  &trans  &trans  &trans
+                               &trans  &trans  &trans  &kp LANG1  &trans
                                        &mkp RCLK  &mkp LCLK  &kp RCTRL
             >;
         };

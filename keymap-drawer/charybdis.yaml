@@ -109,7 +109,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANG1
   - {t: ▽, type: trans}
   - R CLK
   - {t: L CLK, type: held}
