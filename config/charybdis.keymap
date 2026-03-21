@@ -107,7 +107,7 @@
 &kp CAPS   &kp A    &kp S   &kp D   &kp F   &kp G       &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &lt 3 Z  &kp X   &kp C   &kp V   &kp B       &kp N   &kp M   &kp COMMA  &kp DOT  &lt 3 FSLH  &kp RSHFT
                              &kp LGUI  &kp LALT  &kp RET  &mkp LCLK  &kp SPACE
-                                       &mo 1      &kp LCTRL  &mkp LCLK
+                                       &mo 1      &kp LCTRL  &mkp RCLK
             >;
         };
 
